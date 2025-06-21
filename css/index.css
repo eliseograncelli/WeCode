@@ -135,6 +135,10 @@ header > .collapsible-header{
 .carousel-img {
     display: inline-block;
     margin: 0 20px;
+
+}
+.carousel-img img {
+    filter: brightness(0) invert(1);
 }
   
 @keyframes scroll {
